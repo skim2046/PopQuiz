@@ -1,0 +1,21 @@
+<div class="row text-center topBox">
+  <h1>Your Matches</h1>
+</div>
+<div ng-repeat="profile in profiles">
+  <div class="col-md-3 text-center">
+    <section class="containerHover" ng-click="linkProfile(profile)">
+      <img class="avatarPic well image" ng-src="{{ profile.AvatarPic }}" alt="">
+      <h4>Username : {{ profile.Username }}</h4>
+      <div class="overlay">
+        <div class="text">
+        <p>Sex : {{ profile.Sex }}</p>
+        <p>Age : {{ profile.Age }}</p>
+        <p>Height : {{ profile.Height }}</p>
+        <p>Body Type : {{ profile.BodyType }}</p>
+        <p>Location : {{ profile.Location }}</p>
+        <p>Main POP : {{ profile.MainPopTitle }}</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

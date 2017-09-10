@@ -1,0 +1,83 @@
+<div class="container">
+  <div class="row">
+    <a href="https://stevenkimxi.github.io/PopQuiz"><img id="quizLogo" src="https://stevenkimxi.github.io/PopQuiz/images/PopQuiz.png" alt=""></a>
+    <a href="https://stevenkimxi.github.io/PopQuiz"><button class="btn btn-sm exitButton">Exit</button></a>
+  </div>
+  <div class="row">
+    <section>
+      <div class="wizard">
+        <div class="wizard-inner">
+          <div class="connecting-line"></div>
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" ng-class="{active: question.isActive}" ng-repeat="question in questions">
+              <a href="" title="Question {{$index + 1}}">
+                <span class="round-tab">
+                                <i>{{$index + 1}}</i>
+                            </span>
+              </a>
+            </li>
+            <li role="presentation" class="disabled" ng-class="{active: currentQuestionIndex == questions.length }">
+              <a href="#complete" title="Complete">
+                <span class="round-tab">
+                                <i class="glyphicon glyphicon-ok"></i>
+                            </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <form role="form">
+          <div class="tab-content">
+            <div class="tab-pane" ng-class="{active: question.isActive}" role="tabpanel" id="step{{$index + 1}}" ng-repeat="question in questions">
+              <div class="step{{$index + 1}}">
+                <div class="row">
+                  <div class="text-center">
+                    <h1>{{ question.QuestionAsk }} </h1>
+                  </div>
+                  <form>
+                    <div class="row col-md-6 col-md-offset-3 AnswerFont">
+                      <label class="radio-inline" for="{{$index}}answerOne">
+                      <input class="inlineRadio" type="radio" name="{{$index}}radioAnswer" ng-value="question.AnswerOne" id="{{$index}}answerOne" ng-model="question.SelectedAnswer"> {{ question.AnswerOne }}
+                      </label>
+                    </div>
+                    <div class="row col-md-6 col-md-offset-3 AnswerFont">
+                      <label class="radio-inline" for="{{$index}}answerTwo">
+                      <input class="inlineRadio" type="radio" name="{{$index}}radioAnswer" ng-value="question.AnswerTwo" id="{{$index}}answerTwo" ng-model="question.SelectedAnswer"> {{ question.AnswerTwo }}
+                      </label>
+                    </div>
+                    <div class="row col-md-6 col-md-offset-3 AnswerFont">
+                      <label class="radio-inline" for="{{$index}}answerThree">
+                      <input class="inlineRadio" type="radio" name="{{$index}}radioAnswer"  ng-value="question.AnswerThree" id="{{$index}}answerThree" ng-model="question.SelectedAnswer"> {{ question.AnswerThree }}
+                      </label>
+                    </div>
+                    <div class="row col-md-6 col-md-offset-3 AnswerFont">
+                      <label class="radio-inline" for="{{$index}}answerFour">
+                      <input class="inlineRadio" type="radio" name="{{$index}}radioAnswer" ng-value="question.AnswerFour" id="{{$index}}answerFour" ng-model="question.SelectedAnswer"> {{ question.AnswerFour }}
+                    </div>
+                    </form>
+                  </div>
+                </div>
+                <ul class="list-inline pull-right">
+                  <li ng-hide="currentQuestionIndex == (questions.length - 1)"><button type="button" class="btn btn-warning next-step" ng-click="nextQuestion()">Next Question</button></li>
+                  <li ng-show="currentQuestionIndex == (questions.length - 1)"><button type="button" class="btn btn-warning next-step" ng-click="submitResults()">Show Results</button></li>
+                </ul>
+              </div>
+              <div class="tab-pane" ng-class="{active: currentQuestionIndex == questions.length }" role="tabpanel" id="complete">
+                  <h1 class="text-center correctCount">You got {{ numberOfCorrect }} / 10 Correct</h1>
+                <button type="button" class="btn btn-warning btn-block resultPageButtons" ng-click="first=true">See your Results</button>  
+                <div class="step44 text-center well resultsText" ng-repeat="question in questions" ng-show="first">
+                  <h4>Question {{ $index + 1 }} : {{ question.QuestionAsk }}</h4>
+                  <h4>Correct Answer : {{ question.AnswerCorrect }}</h4>
+                  <h4 ng-if="question.AnswerCorrect != question.SelectedAnswer" style="color:#FF0000; font-weight: bold">Your answer : {{ question.SelectedAnswer }}</h4>
+                  <h4 ng-if="question.AnswerCorrect == question.SelectedAnswer" style="color:#4CBB17; font-weight: bold">Your answer : {{ question.SelectedAnswer }}</h4>
+                  </div>
+                </div>
+                    <div class="text-center matchButton" ng-show="currentQuestionIndex == (questions.length)">
+                      <button type="button" class="btn btn-warning btn-block btn-lg resultPageButtons" ng-click="getFullProfile(currentProfile.Id)">See Full Profile</button>
+                    </div>                   
+              <div class="clearfix"></div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </div>

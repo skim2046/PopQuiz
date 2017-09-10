@@ -1,0 +1,400 @@
+body {
+  margin: 10px;
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+#demoStyle {
+  font-size: 22px;
+  color: #FE0000;
+  margin-top: 10px;
+}
+
+#colorYellow {
+  color: #F8E71C;
+}
+
+#colorBlue {
+  color: #98D2F4;
+}
+
+#fontSize {
+  font-size: 35px;
+}
+
+#fontSizeTitle {
+  font-size: 55px;
+}
+
+.portButton {
+  background-color: #E4A911;
+  margin-left: 20px;
+}
+
+.navBarColor {
+  background-color: #F8E71C;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#navBarPho {
+  width: 250px;
+}
+
+#navRight {
+  float: right;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.floatRight {
+  float: right;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.navbar-fixed-top .navbar-nav > li > a:hover, .navbar-fixed-top .navbar-nav > li > a:focus {
+    background-color: #F8E71C;
+    color: #98D2F4;
+}
+
+.slideImage0 {
+  margin-top: 100px;
+  height: 800px;
+  background: url("https://stevenkimxi.github.io/PopQuiz/images/Ferris.slides/2.png") no-repeat center center;
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+.slideImage1 {
+  margin-top: 100px;
+  height: 800px;
+  background: url("https://stevenkimxi.github.io/PopQuiz/images/BackTwo/GameFour.png") no-repeat center center;
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+.slideImage2 {
+  margin-top: 100px;
+  height: 800px;
+  background: url("https://stevenkimxi.github.io/PopQuiz/images/BackTwo/WonderWomanTwo.png") no-repeat center center;
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+.slideImage3 {
+  margin-top: 100px;
+  height: 800px;
+  background: url("https://stevenkimxi.github.io/PopQuiz/images/BackTwo/GameThree.png") no-repeat center center;
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+.slideImage4 {
+  margin-top: 100px;
+  height: 800px;
+  background: url("https://stevenkimxi.github.io/PopQuiz/images/StarWars.slides/RogueOne.png") no-repeat center center;
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+.slideImage5 {
+  margin-top: 100px;
+  height: 800px;
+  background: url("https://stevenkimxi.github.io/PopQuiz/images/BackTwo/GameOne.png") no-repeat center center;
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+.slideImage6 {
+  margin-top: 100px;
+  height: 800px;
+  background: url("https://stevenkimxi.github.io/PopQuiz/images/Ferris.slides/3.png") no-repeat center center;
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+.slideImage7 {
+  margin-top: 100px;
+  height: 800px;
+  background: url("https://stevenkimxi.github.io/PopQuiz/images/StarWars.slides/RogueOne_4.png") no-repeat center center;
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+.slideImage8 {
+  margin-top: 100px;
+  height: 800px;
+  background: url("https://stevenkimxi.github.io/PopQuiz/images/BackTwo/WonderWomanOne.png") no-repeat center center;
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+.slideImage9 {
+  margin-top: 100px;
+  height: 800px;
+  background: url("https://stevenkimxi.github.io/PopQuiz/images/Ferris.slides/4.png") no-repeat center center;
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+.slideImage10 {
+  margin-top: 100px;
+  height: 800px;
+  background: url("https://stevenkimxi.github.io/PopQuiz/images/Ferris.slides/Gallery.png") no-repeat center center;
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+.slideImage11 {
+  margin-top: 100px;
+  height: 800px;
+  background: url("https://stevenkimxi.github.io/PopQuiz/images/BackTwo/GameTwo.png") no-repeat center center;
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+.searchImageBox {
+  margin-top: 40px;
+  height: 800px;
+  background: url("https://stevenkimxi.github.io/PopQuiz/images/StarWars.slides/RogueOne.png") no-repeat center center;
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+.tagLine {
+  color: #Fff;
+  padding: 315px;
+}
+
+.about {
+  margin-top: 20px;
+  background-color: #98D2F4;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.imageMargins {
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+  max-height: 250px;
+}
+
+#fontEx {
+  font-size: 16px;
+}
+
+.searchBox {
+  margin: 20px;
+}
+
+.btn-warning {
+    background-color: #98D2F4;
+    border-color: #98D2F4;
+    color: black;
+}
+
+.btn-warning:hover {
+    background-color: #F8E71E;
+    border-color: #F8E71E;
+    color: black;
+}
+
+.btn-warning:active {
+    background-color: #F8E71E !important;
+    border-color: #F8E71E !important;
+    color: black !important;
+}
+
+.btn-warning:visited {
+    background-color: #F8E71E !important;
+    border-color: #F8E71E !important;
+    color: black !important;
+}
+
+.searchContent {
+  margin-top: 35px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+.searchContentPage {
+  margin-top: 100px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+.topBox {
+ margin-top: 100px;
+ margin-bottom: 20px;
+}
+
+.avatarPic {
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+  max-height: 250px;
+}
+
+.matchButton {
+  font-size: 18px;
+}
+
+.profileTitle {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.profileText {
+  font-size: 24px;
+}
+
+.profilePagePic {
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#pSpacing {
+  margin: 30px;
+}
+
+.fullMainText {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer {
+  margin-top: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.resultsText {
+  margin-top: 20px;
+}
+
+.dropbtn {
+    background-color: #98D2F4;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #98D2F4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #F8E71E;
+  }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #F8E71E;
+}
+
+.dropFont {
+  font-size: 16px;
+}
+
+.containerHover {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #F8E71E;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);  
+}
+
+.containerHover:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

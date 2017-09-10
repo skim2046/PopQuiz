@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="popApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>POP QUIZ</title>
+  <!--jQuery CDN 3.2.1-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <!--Google Fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!--Bootstrap CDN 3.3.7-->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <!--Bootstrap JS CDN 3.3.7-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/quiz.css">
+  <!--Angular CDN 1.5.7-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>
+  <!--Angular UI Router CDN 0.4.2-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-fixed-top navBarColor" ng-hide="state.$current.hideNavbar" ng-controller="homeController">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"><img id="navBarPho" src="https://stevenkimxi.github.io/PopQuiz/images/Quiz.png" alt=""></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav" id="navRight">
+            <li id="demoStyle">DEMO</li>
+            <li><a href="#">Home</a></li>
+            <li><a ui-sref="match">Find a Match</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+
+    <div ui-view></div>
+
+    <footer class="col-md-12 well footer" ng-hide="state.$current.hideFooter" ng-controller="homeController">
+      <div class="col-md-4">
+        <h5>About Us</h5>
+        <h5>FAQ</h5>
+        <h5>Contact US</h5>
+      </div>
+      <div class="col-md-4">
+        <h5>Facebook</h5>
+        <h5>Twitter</h5>
+        <h5>Instagram</h5>
+      </div>
+    </footer>
+  </div>
+  
+  <script src="./app.js"></script>
+  <script src="./controllers/homeController.js"></script>
+  <script src="./services/homeService.js"></script>
+  <script src="./controllers/galleryController.js"></script>
+  <script src="./services/galleryService.js"></script>
+  <script src="./controllers/profileController.js"></script>
+  <script src="./services/profileService.js"></script>
+  <script src="./controllers/fullprofileController.js"></script>
+  <script src="./services/fullprofileService.js"></script>
+  <script src="./controllers/quizController.js"></script>
+  <script src="./services/quizService.js"></script>
+  <script src="./controllers/userquizController.js"></script>
+  <script src="./services/userquizService.js"></script>
+</body>
+</html>

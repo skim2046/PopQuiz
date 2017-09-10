@@ -1,0 +1,103 @@
+    [
+        
+    {
+        "Id": 12,
+        "QuestionAsk": "Who were Daenery's Parents?",
+        "AnswerOne": "Aemon & Ellia",
+        "AnswerTwo": "Aerys II & Rhaella",
+        "AnswerThree": "Aegon & Rhaenys",
+        "AnswerFour": "Duncan & Daenerys",
+        "AnswerCorrect": "Aerys II & Rhaella",
+        "Topic": "Game of Thrones"
+    },
+    {
+        "Id": 13,
+        "QuestionAsk": "Who is Brandon Stark?",
+        "AnswerOne": "Ned's father",
+        "AnswerTwo": "Ned's son",
+        "AnswerThree": "Ned's brother",
+        "AnswerFour": "\r\nNed' s grandchild",
+        "AnswerCorrect": "Ned's brother",
+        "Topic": "Game of Thrones"
+    },
+    {
+        "Id": 15,
+        "QuestionAsk": "Which dragon was called \"The Black Dread\"?",
+        "AnswerOne": "Meraxes",
+        "AnswerTwo": "Drogon ",
+        "AnswerThree": "Vhagar",
+        "AnswerFour": "Balerion",
+        "AnswerCorrect": "Balerion",
+        "Topic": "Game of Thrones"
+    },
+    {
+        "Id": 17,
+        "QuestionAsk": "Why did Jaime kill King Aerys II?",
+        "AnswerOne": "Aerys II held Jaime hostage because he didn't trust Tywin",
+        "AnswerTwo": "He wanted to become famous",
+        "AnswerThree": "His father asked him to kill Aerys II because they hated each other",
+        "AnswerFour": "Aerys II planned to burn the entire city to the ground rather than lose it to Robert",
+        "AnswerCorrect": "Aerys II planned to burn the entire city to the ground rather than lose it to Robert",
+        "Topic": "Game of Thrones"
+    },
+    {
+        "Id": 18,
+        "QuestionAsk": "What does \"Valar Dohaeris\" mean?",
+        "AnswerOne": "\r\n\"All men must die\"\r\n",
+        "AnswerTwo": "\"Everyone must die\"",
+        "AnswerThree": "\"All men must serve\"",
+        "AnswerFour": "\"I have three dragons\"",
+        "AnswerCorrect": "\"All men must serve\"",
+        "Topic": "Game of Thrones"
+    },
+    {
+        "Id": 19,
+        "QuestionAsk": "Who was Cersei supposed to marry?",
+        "AnswerOne": "Robert Baratheon",
+        "AnswerTwo": "Eddard Stark",
+        "AnswerThree": "Stannis Baratheon",
+        "AnswerFour": "Rhaegar Targaryen",
+        "AnswerCorrect": "Rhaegar Targaryen",
+        "Topic": "Game of Thrones"
+    },
+    {
+        "Id": 20,
+        "QuestionAsk": "Who is Tysha?",
+        "AnswerOne": "Tywin's wife",
+        "AnswerTwo": "Tyrion's ex-wife",
+        "AnswerThree": "\r\nJaime's ex-wife",
+        "AnswerFour": "\r\nCersei's best friend",
+        "AnswerCorrect": "Tyrion's ex-wife",
+        "Topic": "Game of Thrones"
+    },
+    {
+        "Id": 21,
+        "QuestionAsk": "Why did Robert rebel?",
+        "AnswerOne": "Rhaegar Targaryen kidnapped Lyanna Stark and Aerys II killed Eddard's brother and father",
+        "AnswerTwo": "Because Aerys II was crazy and the people deserved a better king",
+        "AnswerThree": "We don't know",
+        "AnswerFour": "Because it was the only way he could marry Cersei",
+        "AnswerCorrect": "Rhaegar Targaryen kidnapped Lyanna Stark and Aerys II killed Eddard's brother and father",
+        "Topic": "Game of Thrones"
+    },
+    {
+        "Id": 22,
+        "QuestionAsk": "Where does Melisandre come from?",
+        "AnswerOne": "Tyrosh",
+        "AnswerTwo": "\r\nAsshai",
+        "AnswerThree": "Volantis",
+        "AnswerFour": "\r\nBraavos",
+        "AnswerCorrect": "Asshai",
+        "Topic": "Game of Thrones"
+    },
+    {
+        "Id": 24,
+        "QuestionAsk": "Where does Petyr come from?",
+        "AnswerOne": "The Fingers",
+        "AnswerTwo": "\r\nRiverrun",
+        "AnswerThree": "\r\nBraavos",
+        "AnswerFour": "The Eyrie",
+        "AnswerCorrect": "The Fingers",
+        "Topic": "Game of Thrones"
+    }
+]

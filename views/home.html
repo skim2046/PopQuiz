@@ -1,0 +1,43 @@
+<div class="text-center slideImage0" id="heroImage">
+  <div class="row tagLine">
+    <img src="https://stevenkimxi.github.io/PopQuiz/images/PopQuiz.png" alt="">
+    <h2 id="fontSize">Find Your <span id="colorBlue">Match through</span> your Popular <span id="colorYellow">Culture Obsession</span></h2>
+  </div>
+</div>
+<div class=" text-center well searchContent">
+  <h1>What is your POP?</h1>
+  <div class="input-group col-md-6 col-md-offset-3">
+    <div class="dropdown">
+      <button class="dropbtn dropFont">Choose your first Quiz to find your Match</button>
+      <div class="dropdown-content">
+        <a ng-click="selectQuiz('Ferris')">Ferris Bueller's Day Off</a>
+        <a ng-click="selectQuiz('Game of Thrones')">Game of Thrones</a>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="row text-center sampleProfiles">
+  <h1 style="margin-bottom: 20px">Sample Profiles</h1>
+  <div ng-repeat="profile in profiles | orderBy: 'orderNumber'">
+    <div class="col-md-3">
+      <section class="containerHover" ng-click="linkProfile(profile)">
+        <img class="imageMargins well image" ng-src="{{ profile.AvatarPic }}" alt="">
+        <h4>Username : {{ profile.Username }}</h4>
+        <div class="overlay">
+          <div class="text">
+          <p>Sex : {{ profile.Sex }}</p>
+          <p>Age : {{ profile.Age }}</p>
+          <p>Height : {{ profile.Height }}</p>
+          <p>Body Type : {{ profile.BodyType }}</p>
+          <p>Location : {{ profile.Location }}</p>
+          <p>Main POP : {{ profile.MainPopTitle }}</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+<section class="text-center well about">
+  <h2>Dating Site focused on your Popular Culture Interest. Not profile pics.</h2>
+  <h2><a ui-sref="match">Take first Quiz to find your Match</a></h2>
+</section>

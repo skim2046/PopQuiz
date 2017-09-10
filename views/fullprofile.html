@@ -1,0 +1,26 @@
+<section>
+  <div class="row text-center profileTitle">
+    <h1>{{ currentProfile.Username }}'s Profile</h1>
+  </div>
+  <div class="row col-md-6">
+    <img class="profilePagePic well" src="{{ currentProfile.ProfilePic }}" alt="">
+  </div>
+  <div class="col-md-6 profileText">
+    <p id="pSpacing">Username : {{ currentProfile.Username }}</p>
+    <p id="pSpacing">Age : {{ currentProfile.Age }}</p>
+    <p id="pSpacing">Sex : {{ currentProfile.Sex }}</p>
+    <p id="pSpacing">Height : {{ currentProfile.Height }}</p>
+    <p id="pSpacing">Body Type : {{ currentProfile.BodyType }}</p>
+    <p id="pSpacing">Location : {{ currentProfile.Location }}</p>
+  </div>
+  <div class="col-md-12">
+    <h1>{{ currentProfile.Username }}'s Main Pop</h1>
+    <h3>{{ currentProfile.MainPopTitle }}</h3>
+    <p class="fullMainText">{{ currentProfile.MainPopFull }}</p>
+  </div>
+  <div class="col-md-12">
+    <h1>{{ currentProfile.Username }}'s Sub Pop</h1>
+    <h3>{{ currentProfile.SubPopTitle }}</h3>
+    <p class="fullMainText">{{ currentProfile.SubPopFull }}</p>
+  </div>
+</section>
